@@ -95,7 +95,7 @@ export const GreenCodeLanding = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
+          {/* <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
             {[
               { number: "50%", label: "Energy Saved" },
               { number: "1M+", label: "Lines Optimized" },
@@ -108,7 +108,7 @@ export const GreenCodeLanding = () => {
                 <div className="text-gray-400 text-sm">{stat.label}</div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
 
         {/* Scroll Indicator */}
